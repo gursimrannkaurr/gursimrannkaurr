@@ -99,7 +99,7 @@ A predictive analytics pipeline that turns raw customer data into a forecast-rea
 | **Scope** | Feature engineering on raw customer data (missing values, outliers, categorical encoding) |
 | **Modeling** | Classification model to forecast customer behavior trends, validated via train/test splits and accuracy/precision metrics |
 | **Impact** | Interactive Power BI dashboard surfacing segment-level trends for executive decision-making |
-| **Repository** | _Add repo link_ |
+| **Repository** | [`predictive-consumer-analytics`](https://github.com/gursimrannkaurr/predictive-consumer-analytics) |
 
 </details>
 
@@ -114,8 +114,24 @@ An end-to-end tool that scores resumes against a target job description, extendi
 | **Stack** | Python, Scikit-Learn, NLP, Streamlit |
 | **Scope** | TF-IDF + cosine similarity scoring between resumes and job descriptions |
 | **Features** | Parsed resume entities (skills, experience duration, education level) combined with text-similarity into a weighted fit score |
-| **Interface** | Streamlit app: recruiters upload a job description + a batch of resumes and get a ranked shortlist with per-candidate score breakdowns |
-| **Repository** | _Add repo link_ |
+| **Interface** | Web app: recruiters upload a job description + a batch of resumes and get a ranked shortlist with per-candidate score breakdowns |
+| **Repository** | [`resume-ranking-jobfit`](https://github.com/gursimrannkaurr/resume-ranking-jobfit) |
+
+</details>
+
+<details>
+<summary><b>📈 Equity Research Copilot</b></summary>
+<br/>
+
+An AI-assisted equity research dashboard: enter any US or NSE ticker and get transparent, rule-based analytics plus a Gemini-generated research note grounded strictly in the computed numbers.
+
+| Aspect | Details |
+|:--|:--|
+| **Stack** | Python, FastAPI, yfinance, Pandas, NumPy, Next.js, Gemini 2.5 Flash |
+| **Scope** | Price/momentum analytics (returns, volatility, SMA/RSI, drawdown), fundamentals + peer ratio comparison, a documented rule-based health score |
+| **AI Layer** | Gemini 2.5 Flash generates a grounded research note, peer-comparison explainer, and follow-up Q&A chat — with an explicit "never invent numbers" instruction and a rule-based fallback when no API key is set |
+| **Interface** | Web dashboard: ticker search, price chart with SMA overlays, metric cards, peer table, research-note panel, and chat drawer — always shown with an educational-use disclaimer |
+| **Repository** | [`equity-research-copilot`](https://github.com/gursimrannkaurr/equity-research-copilot) |
 
 </details>
 
