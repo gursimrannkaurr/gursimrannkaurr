@@ -13,6 +13,7 @@
 
 <br/>
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-gursimrankaur.vercel.app-FF1E8E?style=for-the-badge&logo=vercel&logoColor=white)](https://gursimrankaur.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-E60073?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gursimran-kaur-a4653a293)
 [![Email](https://img.shields.io/badge/Email-Contact%20Me-C7005C?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gursimran.kaur.contact@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-FF00A0?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gursimrannkaurr)
